@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-app
+spec:
+  tolerations:
+    - key: "no-worker"
+      operator: "Exists"
+      effect: "NoSchedule"
+    - key: "t1cloud.com/smb-dfs-kernel-instability"
+      operator: "Exists"
+      effect: "NoSchedule"
