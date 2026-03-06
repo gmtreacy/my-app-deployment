@@ -3,3 +3,6 @@ kind: Kustomization
 resources:
 - ../../base
 namePrefix: gmtreacy-
+replicas:
+- name: my-app
+  count: 2
