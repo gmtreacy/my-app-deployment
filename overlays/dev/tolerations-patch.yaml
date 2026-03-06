@@ -6,7 +6,7 @@ spec:
   tolerations:
     - key: "no-worker"
       operator: "Exists"
-      effect: "NoSchedule"
+      effect: "NoExecute"
     - key: "t1cloud.com/smb-dfs-kernel-instability"
       operator: "Exists"
-      effect: "NoSchedule"
+      effect: "NoExecute"
