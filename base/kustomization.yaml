@@ -1,2 +1,3 @@
 resources:
   - my-app.yaml
+  - service.yaml
