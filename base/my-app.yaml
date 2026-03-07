@@ -21,5 +21,5 @@ spec:
           effect: "NoExecute"
       containers:
         - name: main
-          image: nginx:stable:v2
+          image: nginx:stable
           imagePullPolicy: IfNotPresent
